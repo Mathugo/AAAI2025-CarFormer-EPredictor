@@ -104,5 +104,5 @@ def calc_CPMWAUC(y, seq_len_mean: int,
     return area
 ```
 
-## Contribution
->📋  Apache License 2.0
+## License
+This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License. You may copy, distribute, remix, and build upon the material for **non-commercial purposes only**. 
