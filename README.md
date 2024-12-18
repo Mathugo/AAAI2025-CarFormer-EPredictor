@@ -4,10 +4,9 @@
 
 # Harnessing Event Sensory Data for Error Pattern Prediction in Vehicles: A Language Model Approach
 
-This repository is the official implementation of [Harnessing Event Sensory Data for Error Pattern Prediction in Vehicles: A Language Model Approach](no_preprint_from_now). 
+This repository is the official implementation of [Harnessing Event Sensory Data for Error Pattern Prediction in Vehicles: A Language Model Approach](https://arxiv.org/abs/2412.13041), accepted at AAAI2025. 
 
->📋 ![alt text](https://github.com/Mathugo/AAAI2025-CarFormer-EPredictor/blob/main/car_plot.drawio.pdf?raw=true)
-![alt text](https://github.com/Mathugo/AAAI2025-CarFormer-EPredictor/blob/main/plot_expl_.png)
+>📋 ![alt text](https://github.com/Mathugo/AAAI2025-CarFormer-EPredictor/blob/main/plot_expl_.png)
 
 ## Requirements
 
