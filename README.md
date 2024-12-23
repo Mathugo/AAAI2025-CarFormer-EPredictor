@@ -46,12 +46,9 @@ config = EPredictorConfig('carformer_test',
 model = EPredictor(config)
 model.save_pretrained('epredictor_test', None)
 ```
-
->📋  Describe how to train the models, with example commands on how to train the models in your paper, including the full training procedure and appropriate hyperparameters.
-
 ## Evaluation
 
-CPMW: The Confident Predictive Maintenance Window Area Under The Curve was used to access which model configuration was the best for predictive maintenance of EPs happenning to the vehicle. 
+CPMW: The Confident Predictive Maintenance Window Area Under The Curve was used to access which model configuration was the best for predictive maintenance of EPs happening to the vehicle. 
 
 ```eval
 def calc_CPMWAUC(y, seq_len_mean: int, 
@@ -65,9 +62,9 @@ def calc_CPMWAUC(y, seq_len_mean: int,
     Parameters:
     - y (list of float): List of metric values.
     - confidence_threshold (float): Threshold value to enter the CPMW.
-    - seq_len_mean (int): Index in list `y` up to which the metric is considered into the calculation.
+    - seq_len_mean (int): Index in list `y` up to which the metric is considered in the calculation.
     - min_context (int): Context c of the EPredictor which generated the metric values.
-    - mode (str): Weither we calculate the CPMWAUC for values that decrease or increase. Typically, for MAE like metrics, we choose decrease, whereas for classification metrics we should increase.
+    - mode (str): Whether we calculate the CPMWAUC for values that decrease or increase. Typically, we choose decrease for MAE-like metrics, whereas for classification metrics, we should increase.
 
     Returns:
     - float: Area under the curve.
